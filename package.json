@@ -1,0 +1,19 @@
+{
+    "name": "chabokpush-rn",
+    "version": "1.0.0",
+    "description": "Chabok Push Client for React Native (Pure JS)",
+    "main": "dist/chabokpush.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chabokpush/chabok-client-rn-js.git"
+    },
+    "author": "jalal azimi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chabokpush/chabok-client-rn-js/issues"
+    },
+    "homepage": "https://github.com/chabokpush/chabok-client-rn-js#README",
+    "dependencies": {},
+    "devDependencies": {}
+}
