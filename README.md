@@ -28,7 +28,7 @@ Adding the Code in your `AndroidManifest.xml`:
 
 ## Usage
 to initialize Chabok Push globally, import following module before anything else where call `AppRegistry` method : 
-```bash
+```javascript
 import 'chabokpush-rn/global';
 import {AppRegistry} from 'react-native';
 import App from './app/index';
