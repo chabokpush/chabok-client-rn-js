@@ -55,6 +55,6 @@ import chabokpush from 'chabokpush-rn';
             },
             silent: true,
         };
-   this.chabok = new chabokpush.Chabok(authConfig, options);
+   this.chabok = new chabokpush(authConfig, options);
         
 ```
