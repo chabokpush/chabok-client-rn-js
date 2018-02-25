@@ -1,5 +1,4 @@
-![Logo](https://gitlab.com/adp-digital/adp-push-client-rn/raw/master/logo.png) 
-
+![Logo](https://github.com/chabokpush/chabok-client-rn-js/blob/master/logo.png) 
 
 # ChabokPush React Native
 Implementing the ChabokPush API for Android and iOS.
