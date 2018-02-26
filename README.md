@@ -1,5 +1,5 @@
 ![Logo](https://github.com/chabokpush/chabok-client-rn-js/blob/master/logo.png) 
-
+[![npm version](https://badge.fury.io/js/chabokpush-rn.svg)](https://badge.fury.io/js/chabokpush-rn)
 # ChabokPush React Native
 Implementing the ChabokPush API for Android and iOS.
 
@@ -14,8 +14,9 @@ OR
 ```bash
 npm install --save chabokpush-rn
 ```
+**NOTE: For Android, you will still have to manually update the AndroidManifest.xml (as below).**
 
-### Android Installation
+### Android manual Installation
 Adding the Code in your `AndroidManifest.xml`:
 
 ```
@@ -55,5 +56,10 @@ import chabokpush from 'chabokpush-rn';
             silent: true,
         };
    this.chabok = new chabokpush(authConfig, options);
-        
+   this.chabok.register('98343534534');
+   this.chabok.on('message', msg => console.log(msg));
+   this.chabok.on('connecting', _ => console.log('Connecting ...'))
+   this.chabok.on('disconnected', _ => console.log('offline'))
+   this.chabok.on('connected', _ => console.log('connected'))
+
 ```
