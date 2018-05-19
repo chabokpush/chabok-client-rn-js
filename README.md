@@ -26,6 +26,31 @@ Adding the Code in your `AndroidManifest.xml`:
 
 <application ....>
 ```
+## Push Notification
+To support dynamic app code updates (CodePush, ...) Chabok react-native (PureJS) SDK has dropped out built-in push notification support which has native dependencies.
+However, this SDK provides two alternatives to add native push notification to your application.
+
+
+### use third-party libraries
+
+**react-native-push-notification:**
+
+[react-native-push-notification](https://github.com/zo0r/react-native-push-notification) is a React Native Local and Remote Notifications with full support of Android and iOS capabilities. for ingrate between Chabok and react-native-push-notification in your implementation add the following:
+
+```js
+
+PushNotification.configure({
+    // Called when Token is generated (iOS and Android)
+    onRegister: function(token) {
+      this.chabok.setPushNotificationToken(token)
+    },
+})
+```
+**NOTE:** this chabok `register` method should called after above code. e.g you can call it on class constructor method.
+
+### Push notification Plugin 
+**TODO** chabok push notification is a plugin that can integrate with Chabok SDK that aims to make push notification easier to manage, more efficient to execute and simple to test.
+
 
 ## Usage
 to initialize Chabok Push globally, import following module before anything else where call `AppRegistry` method : 
