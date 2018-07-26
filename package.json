@@ -1,6 +1,6 @@
 {
     "name": "chabokpush-rn",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Chabok Push Client for React Native (Pure JS)",
     "main": "dist/chabokpush.js",
     "scripts": {},
