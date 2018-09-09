@@ -1,7 +1,10 @@
-![Logo](https://github.com/chabokpush/chabok-client-rn-js/blob/master/logo.png) 
-[![npm version](https://badge.fury.io/js/chabokpush-rn.svg)](https://badge.fury.io/js/chabokpush-rn)
-# ChabokPush React Native
-Implementing the ChabokPush API for Android and iOS.
+![Logo](https://raw.githubusercontent.com/jangholi/chabok-assets/master/chaboklogoblue.png)
+
+# Chabok Push Client for React Native
+[![npm](https://img.shields.io/npm/v/chabokpush-rn.svg)](https://www.npmjs.com/package/chabokpush-rn)
+[![npm](https://img.shields.io/npm/dt/chabokpush-rn.svg)](https://www.npmjs.com/package/chabokpush-rn)
+
+Implementing the Chabok Push API for Android and iOS.
 
 This repo is a wrapper for the [chabokpush](https://github.com/chabokpush/chabok-client-js) client library which introduces a dependency needed by React Native. See the Chabok Push [documentation](https://doc.chabokpush.com/javascript/introducing.html) for usage details of library.
 
