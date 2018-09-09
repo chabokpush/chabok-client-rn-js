@@ -1,6 +1,6 @@
-![Logo](https://raw.githubusercontent.com/jangholi/chabok-assets/master/chaboklogoblue.png)
+![Logo](https://github.com/chabokpush/chabok-assets/blob/master/sdk-logo/RN-PureJS.svg)
 
-# Chabok Push Client for React Native
+# Chabok Push Client for React Native (Pure JS)
 [![npm](https://img.shields.io/npm/v/chabokpush-rn.svg)](https://www.npmjs.com/package/chabokpush-rn)
 [![npm](https://img.shields.io/npm/dt/chabokpush-rn.svg)](https://www.npmjs.com/package/chabokpush-rn)
 
